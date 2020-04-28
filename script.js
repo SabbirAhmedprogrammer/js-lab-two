@@ -48,18 +48,3 @@ const fight = (player1, player2, player1Health, player2Health) => {
 }
 
 fight("dragon", "dragonslayer", 100, 100);
-
-
-
-// while (true) {
-//     let randomNumber = Math.floor((Math.random() * 10) + 1);
-//     if (randomNumber !== 5) {
-//         counter++;
-//         console.log(`${randomNumber}!==5`);
-//     } else {
-//         counter++;
-//         console.log(`5===5. it took ${counter} iterations to randomly generate the number 5`);
-//         break;
-//     }
-// }
-
